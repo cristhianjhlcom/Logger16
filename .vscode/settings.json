@@ -1,0 +1,101 @@
+{
+  // ---------------------------------
+  // File Settings
+  // ---------------------------------
+  "files.eol": "\n",
+  "files.autoSave": "onFocusChange",
+  "files.defaultLanguage": "markdown",
+  "files.encoding": "utf8",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  // ---------------------------------
+  // Editor Settings
+  // ---------------------------------
+  "editor.glyphMargin": false,
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.fontFamily": "'MesloLGL Nerd Font', Consolas, 'Courier New', monospace",
+  //"editor.fontFamily": "Inconsolata, Consolas, monospace",
+  "editor.renderWhitespace": "selection",
+  "editor.fontSize": 12,
+  "editor.lineHeight": 0,
+  "editor.fontWeight": 500,
+  "editor.lineNumbers": "off",
+  "editor.bracketPairColorization.enabled": false,
+
+  "workbench.editor.showIcons": true,
+  "workbench.editor.showTabs": "none",
+  "workbench.statusBar.visible": false,
+  // ---------------------------------
+  // TODOS Settings
+  // ---------------------------------
+  "todohighlight.isEnable": true,
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.keywords": [
+    {
+      "text": "TODO:",
+      "color": "#ff00ff",
+      "backgroundColor": "rgba(0, 0, 0, 0.0)",
+      "fontWeight": "bold",
+      "isWholeLine": false
+    },
+    {
+      "text": "FIXME:",
+      "color": "#ff0000",
+      "backgroundColor": "rgba(0, 0, 0, 0.0)",
+      "fontWeight": "bold",
+      "isWholeLine": false
+    },
+    {
+      "text": "NOTE:",
+      "color": "#00ff00",
+      "backgroundColor": "rgba(0, 0, 0, 0.0)",
+      "fontWeight": "bold",
+      "isWholeLine": false
+    }
+  ],
+  "todohighlight.defaultStyle": {
+    "backgroundColor": "rgba(0, 0, 0, 1.0)",
+    "color": "#ff0000",
+    "fontWeight": "bold"
+  },
+  "todohighlight.include": [
+    "**/*.js",
+    "**/*.ts",
+    "**/*.html",
+    "**/*.css",
+    "**/*.scss"
+  ],
+  "todohighlight.exclude": [
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/.vscode/**",
+    "**/.github/**",
+    "**/_output/**",
+    "**/*.min.*",
+    "**/*.map",
+    "**/.next/**"
+  ],
+  // ---------------------------------
+  // TailwindCSS/CSS Settings
+  // ---------------------------------
+  "tailwindCSS.emmetCompletions": true,
+  "tailwind-fold.autoFold": true,
+  "tailwindCSS.includeLanguages": {
+    "blade": "html"
+  },
+  "emmet.includeLanguages": {
+    "blade": "html"
+  },
+  // ---------------------------------
+  // JavaScript Settings
+  // ---------------------------------
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  }
+}
